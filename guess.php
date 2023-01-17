@@ -17,6 +17,8 @@
 
 
 <?php  
+
+
   if(! isset($_GET['guess'])){
     echo("input parameter");}
     elseif(strlen($_GET['guess']<1) ){
@@ -30,5 +32,10 @@
     elseif($_GET['guess']=13){
     echo("you got it");}
 ?>
+<pre>
+  <?php 
+    print_r($_GET);
+    ?>
+</pre>
 </body>
 </html>
