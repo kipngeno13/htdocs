@@ -1,3 +1,7 @@
+<!-- this is a game that prompts the user to enter a number, 
+checks it and displays a message accordingly --> 
+
+
 <?php
 $prevguess = '';
 $mensaje = FALSE;
