@@ -11,9 +11,7 @@
         welcome to this guessing game.
     </h1>
 
-    <!-- <form action="get">
-
-    </form> -->
+    
 
 
 <?php  
